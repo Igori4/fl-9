@@ -1,0 +1,122 @@
+body {
+  padding: 0 80px 0 80px;
+  background: #e4e1e1; }
+
+header {
+  display: flex;
+  align-items: flex-end; }
+  header img {
+    width: 450px;
+    height: 270px; }
+  header nav {
+    border-top: 2px solid rgba(0, 0, 0, 0.275);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.275);
+    height: 50px;
+    width: 792px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    header nav a {
+      text-decoration: none;
+      color: rgba(255, 0, 0, 0.59);
+      font-size: 22px; }
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end; }
+  .toolbar input {
+    border: 1px solid rgba(255, 0, 0, 0.59);
+    height: 35px;
+    width: 180px;
+    margin: 40px 5px 6px 0;
+    font-size: 16px;
+    padding-left: 10px; }
+    .toolbar input::placeholder {
+      color: rgba(255, 0, 0, 0.59); }
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .post-list article {
+    width: 43%;
+    padding: 8px;
+    background-color: white;
+    margin: 20px;
+    max-height: 800px;
+    font-family: Verdana, Serif; }
+    .post-list article img {
+      width: 100%; }
+
+h3 {
+  color: #7e7e7e; }
+
+p {
+  color: #838181;
+  font-family: "Arial Narrow", Arial, sans-serif, "Franklin Gothic Medium"; }
+
+.post-description {
+  color: #b8b8b8;
+  font-size: 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.275);
+  padding-bottom: 10px; }
+
+#about {
+  margin: 20px; }
+
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(255, 0, 0, 0.59);
+  margin: 0;
+  font-weight: bold; }
+
+h4 {
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(255, 0, 0, 0.59);
+  font-size: 20px;
+  margin-top: 0; }
+
+form {
+  display: flex;
+  flex-direction: column; }
+  form input {
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.275);
+    padding: 8px;
+    height: 30px;
+    color: rgba(60, 59, 59, 0.638);
+    font-size: 17px;
+    font-weight: bold; }
+    form input::placeholder {
+      font-size: 17px;
+      font-weight: bold;
+      color: rgba(60, 59, 59, 0.638); }
+  form textarea {
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.275);
+    padding: 10px;
+    font-weight: bold;
+    color: rgba(60, 59, 59, 0.638); }
+    form textarea::placeholder {
+      font-size: 17px;
+      font-weight: bold;
+      color: rgba(60, 59, 59, 0.638); }
+
+.submit {
+  display: flex;
+  justify-content: flex-end; }
+  .submit button {
+    width: 200px;
+    height: 40px;
+    background: rgba(255, 0, 0, 0.59);
+    color: white; }
+    .submit button:hover {
+      cursor: pointer; }
+
+footer span {
+  color: rgba(77, 77, 77, 0.638); }
+
+/*# sourceMappingURL=style2.css.map */

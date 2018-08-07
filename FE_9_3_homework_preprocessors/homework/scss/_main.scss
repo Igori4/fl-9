@@ -1,0 +1,162 @@
+// @import "_variables1.scss";
+@import "_variables2.scss";
+body{
+    padding: 0 80px 0 80px;
+    background: $bodyBg;
+}
+            //header
+header{
+    display: flex;
+    align-items: flex-end;
+
+    img{
+       width: 450px;
+       height: 270px;
+       }
+    nav{
+      border-top: $borderColor;
+      border-bottom: $borderColor;
+      height: 50px;
+      width: 792px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      a{
+          text-decoration: none;
+          color:$mainColor;
+          font-size: 22px;
+        
+         }
+      }
+
+}
+.toolbar{
+   display: flex;
+   justify-content:flex-end;
+   input{
+       border: 1px solid $mainColor;
+       height: 35px;
+       width: 180px;
+       margin:40px 5px 6px 0;
+       font-size: 16px;
+       padding-left: 10px;
+        &::placeholder{
+            color: $mainColor;
+        
+    }
+   }
+   
+}
+            //article
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    article{
+        width: 43%;
+        padding: 8px;
+        background-color: $backgroundColorForAr;
+        margin: 20px;
+        max-height: 800px;
+        font-family: $fonts;  
+        img{
+            width: 100%;
+        }
+    }
+}
+h3{
+    color:$headersColor;
+}
+p{
+    color: $paragraphColor;
+    font-family: $paragrapfFont; 
+}
+
+.post-description{
+    color:$dateColor;
+    font-size: 15px;
+    border-bottom: $borderColor;
+    padding-bottom: 10px;
+
+}
+#about{
+    margin: 20px;
+}
+
+ h1{
+    display: flex;
+    justify-content: flex-end;
+    color: $mainColor;
+    margin: 0;
+    font-weight: $fontWeigth;
+    }
+h4{
+    display: flex;
+    justify-content: flex-end;
+    color: $mainColor;
+    font-size: 20px;
+    margin-top: 0;
+    
+}
+            //Forms
+form{
+    display: flex;
+    flex-direction: column;
+    input{
+        margin: 10px;
+        border: $borderColor;
+        padding: 8px;
+        height: 30px;
+        color: $colorInForms;
+        font-size:$fontSizeForms; 
+        font-weight:$fontWeigth;
+        &::placeholder{
+            font-size: $fontSizeForms;
+            font-weight:$fontWeigth;
+            color: $colorInForms ;
+
+        }
+    }
+    textarea{
+        margin: 10px;
+        border: $borderColor;
+        padding: 10px;
+        font-weight: $fontWeigth;
+        color:$colorInForms; 
+        &::placeholder{
+            font-size: $fontSizeForms;
+            font-weight: $fontWeigth;
+            color: $colorInForms;
+            
+
+        }
+    }
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+    button{
+        width: 200px;
+        height: 40px;
+        background: $mainColor;
+        color: white;
+        &:hover{
+            cursor: pointer;
+        }
+        
+
+    }
+    
+}
+            //footer
+footer{
+    span{
+        color: $footerColor;
+    }
+}
+    
+
+
+
