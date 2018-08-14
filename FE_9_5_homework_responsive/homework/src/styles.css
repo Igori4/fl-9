@@ -32,7 +32,7 @@ li{
   font-size: 50px;
   margin-top: 100px;
 }
-.section{
+.wraper{
   padding: 0 60px;
 }
 .article{
@@ -71,13 +71,13 @@ li{
   body{
     background-color: #0a1223;
   }
-  .wraper{
+  .section{
     padding: 0 40px;
   }
   .bottom-btn{
     display: none;
   }
-  .section{
+  .wraper{
     padding: 0 30px;
   }
   .links , a{
@@ -141,7 +141,7 @@ li{
    display: flex;
    flex-direction: row;
  }
- article:nth-child(even){
+  article:nth-child(even){
    flex-direction: row-reverse;
  }
  .info{
