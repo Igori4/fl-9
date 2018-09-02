@@ -50,4 +50,3 @@ function showFormattedDate(date){
     let month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     return `It is ${date.getDate()} of ${month[date.getMonth()]}, ${date.getFullYear()}`;
 }
-console.log(showFormattedDate(new Date()));
