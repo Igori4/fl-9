@@ -1,0 +1,28 @@
+#root{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    text-align: center;
+}
+#secondPage{
+    display: none;
+}
+#thirdPage{
+    display: none;
+}
+#addTask{
+    width: 200px;
+    height: 30px;
+}
+button{
+    border-radius: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+#addNewTask{
+        margin-bottom: 20px;
+
+}
